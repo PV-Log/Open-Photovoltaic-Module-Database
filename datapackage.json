@@ -1,0 +1,51 @@
+{
+  "name": "Open-Photovoltaic-Module-Database",
+  "title": "Open Source Database for Photovoltaic Modules",
+  "description": "This is an Open Source Database for Photovoltaic Modules. Everybody is welcome to contribute and use it.",
+  "licenses": [
+    {
+      "id": "MIT",
+      "name": "MIT License",
+      "version": "",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "resources": [
+    {
+      "name": "inverters",
+      "url": "https://github.com/PV-Log/Open-Module-Database/raw/master/data/inverters.csv",
+      "path": "data/inverters.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "id",
+            "description": "Unique ID",
+            "type": "number"
+          },
+          {
+            "id": "supplier",
+            "description": "Supplier or Manufacturer of the Module",
+            "type": "string"
+          },
+          {
+            "id": "type",
+            "description": "Type or Model of the Module",
+            "type": "string"
+          },
+          {
+            "id": "nominal_power_ac",
+            "description": "Nominal Power in Watts",
+            "type": "number"
+          },
+          {
+            "id": "cell_type",
+            "description": "Allowed Cell Types are: mono,poly,EFG (list must be extended)",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
