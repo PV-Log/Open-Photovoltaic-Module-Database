@@ -13,8 +13,8 @@
   "resources": [
     {
       "name": "inverters",
-      "url": "https://github.com/PV-Log/Open-Photovoltaic-Module-Database/raw/master/data/inverters.csv",
-      "path": "data/inverters.csv",
+      "url": "https://github.com/PV-Log/Open-Photovoltaic-Module-Database/raw/master/data/modules.csv",
+      "path": "data/modules.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
