@@ -35,7 +35,7 @@
             "type": "string"
           },
           {
-            "id": "nominal_power_ac",
+            "id": "nominal_power",
             "description": "Nominal Power in Watts",
             "type": "number"
           },
